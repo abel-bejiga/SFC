@@ -1,0 +1,29 @@
+{
+  "name": "SFC",
+  "version": "1.0.0",
+  "description": "CLI tool for cloning Salesforce cases",
+  "main": "dist/bin/SFC.js",
+  "bin": {
+    "SFC": "dist/bin/SFC.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bin/SFC.js",
+    "dev": "ts-node bin/SFC.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/configstore": "^6.0.2",
+    "@types/inquirer": "^8.2.5",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"salesforce.d.ts","sourceRoot":"","sources":["../../src/salesforce.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,OAAO,KAAqB,CAAC;AACnC,QAAA,MAAM,WAAW,KAAyB,CAAC;AAE3C,QAAA,MAAM,MAAM,KAAyB,CAAC;AAEtC,iBAAS,aAAa,QASrB;AAED,iBAAe,gBAAgB,qBAQ9B"}
